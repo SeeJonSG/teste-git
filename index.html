@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <title>Buscar Repositórios</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Buscar Repositórios</h1>
+    </header>
+
+    <main class="search-container">
+        <div class="texto-container">
+            <h2>Digite o nome do usuário</h2>
+            <img src="./src/imagens/github-icon.png" alt="">
+        </div>
+
+        <div class="pesquisa-container">  
+            <input type="text" id="textBox" placeholder="Digite aqui...">
+            <img src="./src/imagens/search-icon.png" alt="pesquisar" id="button">
+        </div>  
+    </main>
+
+    <footer class="rodape">
+        <p>Minhas redes</p>
+        <a href="https://www.linkedin.com/in/jonatan-silva-49951a273/" target="_blank"><img src="./src/imagens/linkedln-icon.png" alt=""></a>
+        <a href="https://github.com/SeeJonSG" target="_blank"><img src="./src/imagens/github-icon.png" alt=""></a>
+        <p>© SeeJonSG</p>
+    </footer>
+
+    <div id="modal" class="modal oculto">
+        <div class="modal-conteudo">
+            <span class="fechar" id="fecharModal">&times;</span>
+            <div id="respostaModal"></div>
+        </div>
+    </div>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
